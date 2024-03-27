@@ -35,7 +35,7 @@ public class PetAdoptionPlatform {
                 String name = resultSet.getString("name");
                 int age = resultSet.getInt("age");
                 String breed = resultSet.getString("breed");
-                if (name == null || age == null) {
+                if (name == null || breed == null) {
                     throw new NullPointerException("Pet information is missing.");
                 }
                 if (age < 0) {
