@@ -7,7 +7,7 @@ public class PetAdoptionPlatform {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/PetPals";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "AManasa9@SN"; // Replace with your database password
+    private static final String DB_PASSWORD = "AManasa9@SN"; 
 
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
